@@ -6,5 +6,6 @@ use  Testing_System_Assignment_1;
 
 CREATE TABLE Department (
     DepartmentID INT PRIMARY KEY AUTO_INCREMENT,
-    DepartmentName VARCHAR(250)
+    DepartmentName VARCHAR(250),
+    Email varchar(50)
 );
